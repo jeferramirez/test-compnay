@@ -1,0 +1,115 @@
+
+
+<div class="container">
+  <div class="row d-none d-sm-block" style="margin-top: 45px;">
+    <div
+      class="col-md-auto d-flex justify-content-start offset-md-3"
+    >
+      <img
+        src="../assets/arrow-left-long-solid.svg"
+        style="width: 20px;"
+        alt="flecha"
+      />
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center" >
+    <div class="col-md-12">
+      <h2 class="text-center" style="font-weight: 1000">{{company.nombre}}</h2>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center">
+    <div class="col-md-12">
+      <h6 class="text-center" style="color: gray">NIT: {{company.nit}}</h6>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center">
+    <div class=" col-md-3 col-sm-12 d-flex justify-content-between">
+      <h6
+        style="
+          display: inline;
+          font-size: 12px;
+          margin: auto;
+        "
+        class="text-center"
+      >
+        <b>Capa:</b> {{company.capa}} | <b>S egmento:</b> {{company.segmento}}
+      </h6>
+    </div>
+
+  </div>
+
+  <div class="row justify-content-md-center">
+    <div class="col-md-6 col-lg-6 col-sm-12 d-none d-md-block">
+      <ul
+        class="nav nav-tabs d-flex justify-content-between flex-nowrap"
+        style="margin-top: 25px"
+      >
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Operación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Indicadores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Información Cliente</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row container justify-content-md-center" style="margin-top: 30px">
+    <div class="col-md-6 col-lg-6 col-sm-12">
+      <h6 style="color: #007bff">
+        Indique la linea de crédito que quiere reconsidera
+      </h6>
+    </div>
+  </div>
+
+  <div class="row container justify-content-md-center" style="margin-top: 30px">
+    <div class="d-flex justify-content-around">
+      <div class="card" style="width: 140px; padding: 0px; margin: 5px">
+        <div class="card-body">
+          <img
+            src="../assets/save-money.png"
+            alt="mano"
+            style="width: 100%; object-fit: contain"
+          />
+
+          <div class="text-center">
+            <h6 style="margin-top: 25px; margin-bottom: 0">Cartera Ordinaria</h6>
+          </div>
+        </div>
+        <div class="card-header text-center">
+          <h6 style="color: #007bff">Continuar</h6>
+        </div>
+
+
+      </div>
+
+      <div class="card" style="width: 140px; padding: 0px; margin: 5px">
+        <div class="card-body">
+          <img
+            src="../assets/tienda.png"
+            alt="mano"
+            style="width: 100%; object-fit: contain"
+          />
+
+          <div class="text-center">
+            <h6 style="color: gray; margin-top: 25px; margin-bottom: 0">Leasing</h6>
+          </div>
+        </div>
+        <div class="card-header text-center">
+          <h6 style="color: gray">Continuar</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <app-alert-message></app-alert-message>
+
+</div>
+
+
